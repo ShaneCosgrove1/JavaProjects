@@ -14,6 +14,9 @@ public class EmailAdminApp {
     public static void main(String[] args) {
         Email em1 = new Email("Shane","Cosgrove");
         
+        em1.setAlternateEmail("Shane.cosgrove@outlook.com");
+        System.out.println(em1.showInfo());
+        
     }
     
 }
