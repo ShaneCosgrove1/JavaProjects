@@ -22,7 +22,7 @@ public class Email {
     private int mailboxCapacity;
     private int defaultPasswordLength =8;
     private String alternateEmail;
-    private String companySuffix = "testCompany.com";
+    private String companySuffix= "testCompany.com";
 
     //Constructor to receive firstname and last name
     public Email(String firstName, String lastName) {
